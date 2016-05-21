@@ -1,5 +1,6 @@
 package interview;
 
+
 /**
  * Created by bczhang on 2016/5/19.
  */
@@ -33,6 +34,7 @@ public class InitQuestion {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         InitQuestion t = new InitQuestion("init");
+
     }
 /*
 the result:
