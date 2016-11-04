@@ -34,6 +34,8 @@ public class InitQuestion {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         InitQuestion t = new InitQuestion("init");
+     char c='中';
+        System.out.print(Character.SIZE);
 
     }
 /*
