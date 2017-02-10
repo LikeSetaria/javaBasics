@@ -35,7 +35,7 @@ public class BinarySearch {
         Arrays.sort(a);
         System.out.println("the key is "+key);
         for(int aa:a){
-            System.out.print(aa+" ");
+            System.out.print(aa + " ");
         }
         System.out.println();
 
