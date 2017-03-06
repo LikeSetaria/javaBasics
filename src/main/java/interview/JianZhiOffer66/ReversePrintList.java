@@ -26,7 +26,33 @@ public class ReversePrintList {
         return res;
 
     }
-    public static void main(String[] args){
-
+    public static ListNode reverseList(ListNode head){
+        ListNode p=head;
+        ListNode newHead=head.next;
+        while(newHead.next==null){
+            newHead.next=p;
+            p=newHead;
+            newHead=newHead.next;
+        }
+        return newHead;
     }
+    public static void main(String[] args){
+        ListNode head=new ListNode();
+        ListNode tail=new ListNode();
+        tail=head;
+        int i=0;
+        while (i<10){
+            ListNode p=new ListNode(i);
+            tail.next=p;
+            tail=p;
+            i++;
+        }
+
+       head= reverseList(head);
+        for(;head.next!=null;) {
+            System.out.println(head.val);
+            head=head.next;
+        }
+    }
+
 }
