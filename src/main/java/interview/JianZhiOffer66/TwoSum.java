@@ -20,10 +20,6 @@ public class TwoSum {
 
     public static void main(String[] args)throws Exception
     {
-        String[] arr= FileUtils.readFileToString(new File("E:\\Desktop\\2017毕设\\uid.txt")).split("\n");
-        for(String ag:arr){
-            String[] a=ag.split("######");
-            System.out.println(a[1]);
-        }
+
     }
 }

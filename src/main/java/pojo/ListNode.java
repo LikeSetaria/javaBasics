@@ -1,4 +1,4 @@
-package interview.JianZhiOffer66;
+package pojo;
 
 /**
  * Created by 宝超 on 2017/3/5.
